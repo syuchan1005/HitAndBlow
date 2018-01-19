@@ -1,0 +1,225 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 224 400)
+	(text "GameManager" (rect 5 0 87 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 368 25 380)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 21 27 44 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "PSW_A" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "PSW_A" (rect 21 43 64 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "PSW_B" (rect 0 0 42 14)(font "Arial" (font_size 8)))
+		(text "PSW_B" (rect 21 59 63 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "PSW_C" (rect 0 0 42 14)(font "Arial" (font_size 8)))
+		(text "PSW_C" (rect 21 75 63 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "randResult" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "randResult" (rect 21 91 82 105)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "randSel[0..1]" (rect 0 0 71 14)(font "Arial" (font_size 8)))
+		(text "randSel[0..1]" (rect 21 107 92 121)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "randSeg[0..6]" (rect 0 0 76 14)(font "Arial" (font_size 8)))
+		(text "randSeg[0..6]" (rect 21 123 97 137)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "randLED[0..7]" (rect 0 0 76 14)(font "Arial" (font_size 8)))
+		(text "randLED[0..7]" (rect 21 139 97 153)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "inputResult" (rect 0 0 62 14)(font "Arial" (font_size 8)))
+		(text "inputResult" (rect 21 155 83 169)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 16 160)(line_width 1))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "inputSel[0..1]" (rect 0 0 73 14)(font "Arial" (font_size 8)))
+		(text "inputSel[0..1]" (rect 21 171 94 185)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 16 176)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "inputSeg[0..6]" (rect 0 0 77 14)(font "Arial" (font_size 8)))
+		(text "inputSeg[0..6]" (rect 21 187 98 201)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 16 192)(line_width 3))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "inputLED[0..7]" (rect 0 0 77 14)(font "Arial" (font_size 8)))
+		(text "inputLED[0..7]" (rect 21 203 98 217)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 16 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "checkResult" (rect 0 0 69 14)(font "Arial" (font_size 8)))
+		(text "checkResult" (rect 21 219 90 233)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 16 224)(line_width 1))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "checkHit[0..1]" (rect 0 0 76 14)(font "Arial" (font_size 8)))
+		(text "checkHit[0..1]" (rect 21 235 97 249)(font "Arial" (font_size 8)))
+		(line (pt 0 240)(pt 16 240)(line_width 3))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "checkSel[0..1]" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "checkSel[0..1]" (rect 21 251 101 265)(font "Arial" (font_size 8)))
+		(line (pt 0 256)(pt 16 256)(line_width 3))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "checkSeg[0..6]" (rect 0 0 84 14)(font "Arial" (font_size 8)))
+		(text "checkSeg[0..6]" (rect 21 267 105 281)(font "Arial" (font_size 8)))
+		(line (pt 0 272)(pt 16 272)(line_width 3))
+	)
+	(port
+		(pt 0 288)
+		(input)
+		(text "checkLED[0..7]" (rect 0 0 84 14)(font "Arial" (font_size 8)))
+		(text "checkLED[0..7]" (rect 21 283 105 297)(font "Arial" (font_size 8)))
+		(line (pt 0 288)(pt 16 288)(line_width 3))
+	)
+	(port
+		(pt 0 304)
+		(input)
+		(text "endResult" (rect 0 0 56 14)(font "Arial" (font_size 8)))
+		(text "endResult" (rect 21 299 77 313)(font "Arial" (font_size 8)))
+		(line (pt 0 304)(pt 16 304)(line_width 1))
+	)
+	(port
+		(pt 0 320)
+		(input)
+		(text "endSel[0..1]" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "endSel[0..1]" (rect 21 315 88 329)(font "Arial" (font_size 8)))
+		(line (pt 0 320)(pt 16 320)(line_width 3))
+	)
+	(port
+		(pt 0 336)
+		(input)
+		(text "endSeg[0..6]" (rect 0 0 71 14)(font "Arial" (font_size 8)))
+		(text "endSeg[0..6]" (rect 21 331 92 345)(font "Arial" (font_size 8)))
+		(line (pt 0 336)(pt 16 336)(line_width 3))
+	)
+	(port
+		(pt 0 352)
+		(input)
+		(text "endLED[0..7]" (rect 0 0 71 14)(font "Arial" (font_size 8)))
+		(text "endLED[0..7]" (rect 21 347 92 361)(font "Arial" (font_size 8)))
+		(line (pt 0 352)(pt 16 352)(line_width 3))
+	)
+	(port
+		(pt 208 32)
+		(output)
+		(text "randIn[0..4]" (rect 0 0 63 14)(font "Arial" (font_size 8)))
+		(text "randIn[0..4]" (rect 124 27 187 41)(font "Arial" (font_size 8)))
+		(line (pt 208 32)(pt 192 32)(line_width 3))
+	)
+	(port
+		(pt 208 48)
+		(output)
+		(text "inputIn[0..4]" (rect 0 0 64 14)(font "Arial" (font_size 8)))
+		(text "inputIn[0..4]" (rect 123 43 187 57)(font "Arial" (font_size 8)))
+		(line (pt 208 48)(pt 192 48)(line_width 3))
+	)
+	(port
+		(pt 208 64)
+		(output)
+		(text "checkIn[0..4]" (rect 0 0 71 14)(font "Arial" (font_size 8)))
+		(text "checkIn[0..4]" (rect 116 59 187 73)(font "Arial" (font_size 8)))
+		(line (pt 208 64)(pt 192 64)(line_width 3))
+	)
+	(port
+		(pt 208 80)
+		(output)
+		(text "endIn[0..4]" (rect 0 0 59 14)(font "Arial" (font_size 8)))
+		(text "endIn[0..4]" (rect 128 75 187 89)(font "Arial" (font_size 8)))
+		(line (pt 208 80)(pt 192 80)(line_width 3))
+	)
+	(port
+		(pt 208 96)
+		(output)
+		(text "sel[0..3]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "sel[0..3]" (rect 143 91 187 105)(font "Arial" (font_size 8)))
+		(line (pt 208 96)(pt 192 96)(line_width 3))
+	)
+	(port
+		(pt 208 112)
+		(output)
+		(text "seg[0..6]" (rect 0 0 49 14)(font "Arial" (font_size 8)))
+		(text "seg[0..6]" (rect 138 107 187 121)(font "Arial" (font_size 8)))
+		(line (pt 208 112)(pt 192 112)(line_width 3))
+	)
+	(port
+		(pt 208 128)
+		(output)
+		(text "led[0..7]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "led[0..7]" (rect 143 123 187 137)(font "Arial" (font_size 8)))
+		(line (pt 208 128)(pt 192 128)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 192 368)(line_width 1))
+	)
+)
