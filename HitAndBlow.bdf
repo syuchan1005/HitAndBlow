@@ -647,8 +647,8 @@ applicable agreement for further details.
 	(port
 		(pt 200 64)
 		(output)
-		(text "blow[0..3]" (rect 0 0 56 14)(font "Arial" (font_size 8)))
-		(text "blow[0..3]" (rect 123 59 179 73)(font "Arial" (font_size 8)))
+		(text "blow[0..1]" (rect 0 0 56 14)(font "Arial" (font_size 8)))
+		(text "blow[0..1]" (rect 123 59 179 73)(font "Arial" (font_size 8)))
 		(line (pt 200 64)(pt 184 64)(line_width 3))
 	)
 	(port
@@ -760,12 +760,6 @@ applicable agreement for further details.
 	(text "checkSeg[0..6]" (rect 200 -704 274 -692)(font "Arial" ))
 	(pt 200 -688)
 	(pt 272 -688)
-	(bus)
-)
-(connector
-	(text "checkBlow[0..1]" (rect 204 -736 281 -724)(font "Arial" ))
-	(pt 200 -720)
-	(pt 272 -720)
 	(bus)
 )
 (connector
