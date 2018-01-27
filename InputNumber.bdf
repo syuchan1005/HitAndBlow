@@ -669,7 +669,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 544 240 576 256)
+	(rect 528 240 560 256)
 	(text "VCC" (rect 7 0 27 10)(font "Arial" (font_size 6)))
 	(text "inst17" (rect 3 5 32 17)(font "Arial" )(invisible))
 	(port
@@ -720,7 +720,7 @@ applicable agreement for further details.
 )
 (symbol
 	(rect 800 144 848 176)
-	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "WIRE" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst20" (rect 3 21 32 33)(font "Arial" ))
 	(port
 		(pt 0 16)
@@ -744,7 +744,7 @@ applicable agreement for further details.
 )
 (symbol
 	(rect 800 200 848 232)
-	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "WIRE" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst21" (rect 3 21 32 33)(font "Arial" ))
 	(port
 		(pt 0 16)
@@ -768,7 +768,7 @@ applicable agreement for further details.
 )
 (symbol
 	(rect 800 256 848 288)
-	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
+	(text "WIRE" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst22" (rect 3 21 32 33)(font "Arial" ))
 	(port
 		(pt 0 16)
@@ -1013,24 +1013,6 @@ applicable agreement for further details.
 	(pt 608 168)
 )
 (connector
-	(text "LED[0]" (rect 571 256 605 268)(font "Arial" ))
-	(pt 560 272)
-	(pt 600 272)
-)
-(connector
-	(text "LED[1]" (rect 572 272 606 284)(font "Arial" ))
-	(pt 560 288)
-	(pt 600 288)
-)
-(connector
-	(pt 560 256)
-	(pt 560 272)
-)
-(connector
-	(pt 560 272)
-	(pt 560 288)
-)
-(connector
 	(text "LED[6]" (rect 763 144 797 156)(font "Arial" ))
 	(pt 704 160)
 	(pt 800 160)
@@ -1060,10 +1042,28 @@ applicable agreement for further details.
 	(pt 848 272)
 	(pt 896 272)
 )
+(connector
+	(text "LED[0]" (rect 555 256 589 268)(font "Arial" ))
+	(pt 544 272)
+	(pt 584 272)
+)
+(connector
+	(text "LED[1]" (rect 556 272 590 284)(font "Arial" ))
+	(pt 544 288)
+	(pt 584 288)
+)
+(connector
+	(pt 544 256)
+	(pt 544 272)
+)
+(connector
+	(pt 544 272)
+	(pt 544 288)
+)
 (junction (pt 424 -208))
 (junction (pt 424 -104))
 (junction (pt 624 152))
 (junction (pt 624 208))
 (junction (pt 608 168))
 (junction (pt 608 224))
-(junction (pt 560 272))
+(junction (pt 544 272))

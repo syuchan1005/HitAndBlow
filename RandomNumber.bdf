@@ -1043,36 +1043,6 @@ applicable agreement for further details.
 	(pt 184 568)
 )
 (connector
-	(text "dash[1]" (rect 145 608 181 620)(font "Arial" ))
-	(pt 128 624)
-	(pt 184 624)
-)
-(connector
-	(text "dash[2]" (rect 143 624 179 636)(font "Arial" ))
-	(pt 128 640)
-	(pt 184 640)
-)
-(connector
-	(text "dash[3]" (rect 144 640 180 652)(font "Arial" ))
-	(pt 128 656)
-	(pt 184 656)
-)
-(connector
-	(text "dash[4]" (rect 142 656 178 668)(font "Arial" ))
-	(pt 128 672)
-	(pt 184 672)
-)
-(connector
-	(text "dash[5]" (rect 142 672 178 684)(font "Arial" ))
-	(pt 128 688)
-	(pt 184 688)
-)
-(connector
-	(text "dash[6]" (rect 145 688 181 700)(font "Arial" ))
-	(pt 120 704)
-	(pt 184 704)
-)
-(connector
 	(pt 248 472)
 	(pt 264 472)
 )
@@ -1243,14 +1213,6 @@ applicable agreement for further details.
 	(pt 120 568)
 )
 (connector
-	(pt 120 568)
-	(pt 120 584)
-)
-(connector
-	(pt 120 584)
-	(pt 120 704)
-)
-(connector
 	(pt 128 416)
 	(pt 128 432)
 )
@@ -1269,38 +1231,6 @@ applicable agreement for further details.
 (connector
 	(pt 128 504)
 	(pt 128 520)
-)
-(connector
-	(pt 128 520)
-	(pt 128 536)
-)
-(connector
-	(pt 128 536)
-	(pt 128 608)
-)
-(connector
-	(pt 128 608)
-	(pt 128 624)
-)
-(connector
-	(pt 128 624)
-	(pt 128 640)
-)
-(connector
-	(pt 128 640)
-	(pt 128 656)
-)
-(connector
-	(pt 128 656)
-	(pt 128 672)
-)
-(connector
-	(pt 128 672)
-	(pt 128 688)
-)
-(connector
-	(pt 128 688)
-	(pt 128 720)
 )
 (connector
 	(pt 248 536)
@@ -1337,11 +1267,6 @@ applicable agreement for further details.
 (connector
 	(pt 248 472)
 	(pt 248 504)
-)
-(connector
-	(text "dash[0]" (rect 146 592 182 604)(font "Arial" ))
-	(pt 128 608)
-	(pt 184 608)
 )
 (connector
 	(pt 424 104)
@@ -1541,6 +1466,81 @@ applicable agreement for further details.
 	(pt 528 40)
 	(pt 976 40)
 )
+(connector
+	(text "dash[6]" (rect 145 688 181 700)(font "Arial" ))
+	(pt 128 704)
+	(pt 184 704)
+)
+(connector
+	(pt 120 568)
+	(pt 120 584)
+)
+(connector
+	(pt 120 672)
+	(pt 120 688)
+)
+(connector
+	(pt 120 656)
+	(pt 120 672)
+)
+(connector
+	(pt 120 640)
+	(pt 120 656)
+)
+(connector
+	(pt 120 624)
+	(pt 120 640)
+)
+(connector
+	(pt 120 584)
+	(pt 120 608)
+)
+(connector
+	(pt 120 608)
+	(pt 120 624)
+)
+(connector
+	(text "dash[0]" (rect 146 592 182 604)(font "Arial" ))
+	(pt 120 608)
+	(pt 184 608)
+)
+(connector
+	(text "dash[1]" (rect 145 608 181 620)(font "Arial" ))
+	(pt 120 624)
+	(pt 184 624)
+)
+(connector
+	(text "dash[2]" (rect 143 624 179 636)(font "Arial" ))
+	(pt 120 640)
+	(pt 184 640)
+)
+(connector
+	(text "dash[3]" (rect 144 640 180 652)(font "Arial" ))
+	(pt 120 656)
+	(pt 184 656)
+)
+(connector
+	(text "dash[4]" (rect 142 656 178 668)(font "Arial" ))
+	(pt 120 672)
+	(pt 184 672)
+)
+(connector
+	(text "dash[5]" (rect 142 672 178 684)(font "Arial" ))
+	(pt 120 688)
+	(pt 184 688)
+)
+(connector
+	(pt 128 520)
+	(pt 128 536)
+)
+(connector
+	(pt 128 536)
+	(pt 128 704)
+)
+(connector
+	(pt 128 704)
+	(pt 128 720)
+)
 (junction (pt 128 416))
 (junction (pt 128 432))
 (junction (pt 120 384))
@@ -1553,13 +1553,6 @@ applicable agreement for further details.
 (junction (pt 128 488))
 (junction (pt 128 504))
 (junction (pt 128 520))
-(junction (pt 128 536))
-(junction (pt 128 608))
-(junction (pt 128 624))
-(junction (pt 128 640))
-(junction (pt 128 656))
-(junction (pt 128 672))
-(junction (pt 128 688))
 (junction (pt 248 552))
 (junction (pt 248 568))
 (junction (pt 248 584))
@@ -1573,3 +1566,10 @@ applicable agreement for further details.
 (junction (pt 960 216))
 (junction (pt 736 88))
 (junction (pt 736 192))
+(junction (pt 120 672))
+(junction (pt 120 656))
+(junction (pt 120 640))
+(junction (pt 120 624))
+(junction (pt 120 608))
+(junction (pt 128 536))
+(junction (pt 128 704))
