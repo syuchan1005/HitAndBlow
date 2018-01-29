@@ -720,7 +720,7 @@ applicable agreement for further details.
 )
 (symbol
 	(rect 800 144 848 176)
-	(text "WIRE" (rect 1 0 25 10)(font "Arial" (font_size 6)))
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
 	(text "inst20" (rect 3 21 32 33)(font "Arial" ))
 	(port
 		(pt 0 16)
@@ -744,7 +744,7 @@ applicable agreement for further details.
 )
 (symbol
 	(rect 800 200 848 232)
-	(text "WIRE" (rect 1 0 25 10)(font "Arial" (font_size 6)))
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
 	(text "inst21" (rect 3 21 32 33)(font "Arial" ))
 	(port
 		(pt 0 16)
@@ -768,7 +768,7 @@ applicable agreement for further details.
 )
 (symbol
 	(rect 800 256 848 288)
-	(text "WIRE" (rect 1 0 25 10)(font "Arial" (font_size 6)))
+	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
 	(text "inst22" (rect 3 21 32 33)(font "Arial" ))
 	(port
 		(pt 0 16)
@@ -812,16 +812,8 @@ applicable agreement for further details.
 	(pt 552 -160)
 )
 (connector
-	(pt 424 -240)
-	(pt 136 -240)
-)
-(connector
 	(pt 136 -80)
 	(pt 192 -80)
-)
-(connector
-	(pt 424 -240)
-	(pt 424 -208)
 )
 (connector
 	(text "out1[0..3]" (rect 144 88 191 100)(font "Arial" ))
@@ -852,10 +844,6 @@ applicable agreement for further details.
 (connector
 	(pt 552 -160)
 	(pt 552 16)
-)
-(connector
-	(pt 424 -208)
-	(pt 424 -104)
 )
 (connector
 	(pt 424 -104)
@@ -1059,6 +1047,18 @@ applicable agreement for further details.
 (connector
 	(pt 544 272)
 	(pt 544 288)
+)
+(connector
+	(pt 424 -240)
+	(pt 424 -208)
+)
+(connector
+	(pt 424 -208)
+	(pt 424 -104)
+)
+(connector
+	(pt 136 -240)
+	(pt 424 -240)
 )
 (junction (pt 424 -208))
 (junction (pt 424 -104))

@@ -1424,11 +1424,6 @@ applicable agreement for further details.
 	(pt 544 56)
 )
 (connector
-	(text "selectIn[3]" (rect 496 -48 547 -36)(font "Arial" ))
-	(pt 552 -32)
-	(pt 496 -32)
-)
-(connector
 	(pt 624 -80)
 	(pt 624 -56)
 )
@@ -1462,6 +1457,11 @@ applicable agreement for further details.
 	(text "stepSel[1]" (rect 711 24 760 36)(font "Arial" ))
 	(pt 704 40)
 	(pt 768 40)
+)
+(connector
+	(text "selectIn[3]" (rect 496 -48 547 -36)(font "Arial" ))
+	(pt 488 -32)
+	(pt 552 -32)
 )
 (junction (pt 176 208))
 (junction (pt 176 224))
